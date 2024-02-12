@@ -154,8 +154,8 @@ customLogos:
 postDelete:
   enabled: true
   image:
-    repository: %POST_DELETE_IMAGE_NAME%
-    tag: %POST_DELETE_IMAGE_TAG%
+    repository: "rancher/mirrored-bci-micro"
+    tag: 15.4.14.3
   namespaceList:
     - cattle-fleet-system
     - cattle-system
